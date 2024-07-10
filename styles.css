@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: mediumaquamarine;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1, .section {
+    text-align: center;
+}
+
+h2 {
+    text-align: left; 
+    width: 100%; 
+    color: yellow; 
+}
+
+input[type="text"], button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    display: block;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkcyan;
+}
+
+pre {
+    background-color: darkblue;
+    padding: 15px;
+    border: 1px solid darkgoldenrod;
+    overflow: auto;
+    text-align: left;
+}

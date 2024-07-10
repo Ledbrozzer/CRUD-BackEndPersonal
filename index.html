@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registrar-se</h1>
+        
+        <div>
+            <h2>Cadastrar</h2>
+            <input type="text" id="addCodigo" placeholder="Código do Personal">
+            <input type="text" id="addNome" placeholder="Nome">
+            <input type="text" id="addEmail" placeholder="Email">
+            <button onclick="addPersonal()">Adicionar Personal</button>
+        </div>
+
+        <div>
+            <h2>Consultar Personal</h2>
+            <input type="text" id="readCodigo" placeholder="Código do Personal">
+            <button onclick="readPersonal()">Consultar Personal</button>
+            <pre id="readResult"></pre>
+        </div>
+
+        <div>
+            <h2>Excluir Personal</h2>
+            <input type="text" id="deleteCodigo" placeholder="Código do Personal">
+            <button onclick="deletePersonal()">Excluir Personal</button>
+        </div>
+
+        <div>
+            <h2>Listar Todos os Personais</h2>
+            <button onclick="listPersonal()">Listar Personal</button>
+            <pre id="listResult"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
